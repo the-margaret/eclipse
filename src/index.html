@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Groq Test</title>
+  <title>Eclipse</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Input</h2>
+  <div class="container">
+    <h1>Eclipse</h1>
+    <p class="subtitle">Ask something. Get an answer.</p>
 
-  <textarea id="input" rows="5" cols="60"></textarea><br><br>
-  <button onclick="send()">Submit</button>
+    <label for="input">Input</label>
+    <textarea id="input" rows="5" placeholder="Type your prompt here..."></textarea>
 
-  <h2>Output</h2>
-  <pre id="output"></pre>
+    <button onclick="send()">Submit</button>
+
+    <label>Output</label>
+    <pre id="output"></pre>
+  </div>
 
   <script src="middleware.js"></script>
 </body>

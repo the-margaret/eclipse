@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eaeaea;
+}
+
+.container {
+  width: 100%;
+  max-width: 720px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-family: "Lexend", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 0 0 4px 0;
+}
+
+.subtitle {
+  margin: 0 0 24px 0;
+  opacity: 0.8;
+}
+
+label {
+  display: block;
+  margin: 18px 0 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 120px;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: "Lexend", sans-serif;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: #0b1b24;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+pre {
+  margin-top: 12px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.35);
+  font-family: "Lexend", sans-serif;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  min-height: 100px;
+}

@@ -17,7 +17,10 @@ app.post("/ask", async (req, res) => {
     const completion = await groq.chat.completions.create({
       model: "openai/gpt-oss-120b",
       messages: [
-        { role: "user", content: userInput }
+        { 
+          role: "user", 
+          content: userInput 
+        }
       ]
     });
 
