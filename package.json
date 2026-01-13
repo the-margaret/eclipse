@@ -7,7 +7,7 @@
     "start": "node src/server.js"
   },
   "keywords": [],
-  "author": "Ari Khan",
+  "author": "Margaret Ping",
   "license": "ISC",
   "type": "module",
   "dependencies": {
